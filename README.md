@@ -16,4 +16,9 @@ and the cross sectional area of the bullet
 Resistive force in the opposing direction of a projectile's travel through a medium such as air
 Drag Force increases proportional to projectile's speed.
 
-F_d = \frac{1}{2} C_d \cdot \rho \cdot A \cdot v^2
+we will account for drag force in a horziontal and vertical direction at 
+  ax = -F_d * vx / v / mass
+  ay = -g - F_d * vy / v / mass
+
+ **velocity**
+magnitude = v = sqrt(v_x^2 + v_y^2)
