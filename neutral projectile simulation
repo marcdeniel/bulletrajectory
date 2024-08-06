@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-g = 9.81  
+g = 9.81  #avg graviational pull of earth
 v0 = 800  #velocity of a hgih speed projectile m/s 
 angle = 30 #degrees
 C_d = 0.295  #drag coefficient of a bullet
